@@ -101,6 +101,7 @@ h2 {
   transition: transform .15s;
 }
 .ep-card:hover { transform: scale(1.015); }
+.ep-card + .ep-card { margin-top: 26px; }
 .ep-card img { width: 46%; border-radius: 16px; }
 .ep-info h3 { font-size: 1.5rem; color: #4a3f75; margin-bottom: 10px; }
 .ep-info p { font-size: 1.02rem; line-height: 1.55; }
