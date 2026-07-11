@@ -160,3 +160,78 @@ footer p { font-size: .95rem; }
   .ep-card { flex-direction: column; }
   .ep-card img { width: 100%; }
 }
+
+/* Crew hub + character pages */
+.hero-small { padding: 32px 20px 40px; }
+.hero-logo-small { width: min(260px, 56vw); }
+.page-title {
+  position: relative;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: #4a3f75;
+  margin-top: 18px;
+}
+a.card { text-decoration: none; color: inherit; transition: transform .15s; }
+a.card:hover { transform: translateY(-4px); }
+.card-cta {
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #ff4d4d;
+}
+.crew-foot { text-align: center; margin-top: 40px; }
+
+.char-page { max-width: 940px; margin: 0 auto; padding: 48px 20px 64px; }
+.back-link {
+  display: inline-block;
+  margin-bottom: 26px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #4a3f75;
+}
+.back-link:hover { color: #ff4d4d; }
+.char-hero {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.char-hero img {
+  width: min(400px, 100%);
+  flex: 1 1 300px;
+  border-radius: 22px;
+  box-shadow: 0 8px 22px rgba(74, 63, 117, .14);
+}
+.char-hero div { flex: 1 1 320px; }
+.char-hero h1 { font-size: clamp(2.2rem, 5vw, 3rem); color: #4a3f75; }
+.char-tag {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ff4d4d;
+  margin: 4px 0 14px;
+}
+.char-hero p { font-size: 1.05rem; line-height: 1.6; margin-bottom: 12px; }
+.char-facts {
+  background: #fff3d6;
+  border-radius: 22px;
+  padding: 30px 34px;
+  margin-top: 40px;
+}
+.char-facts h2 { text-align: left; font-size: 1.5rem; margin-bottom: 16px; }
+.char-facts ul { list-style: none; }
+.char-facts li { font-size: 1.05rem; line-height: 1.9; }
+.char-lyric {
+  margin-top: 18px;
+  padding: 14px 20px;
+  background: #fff;
+  border-left: 6px solid #ff4d4d;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #4a3f75;
+}
+.char-cta { text-align: center; margin-top: 40px; }
+.char-next { text-align: center; margin-top: 22px; }
+.char-next a { font-weight: 600; color: #4a3f75; text-decoration: none; }
+.char-next a:hover { color: #ff4d4d; }
+.foot-links a { color: #efeafd; }
